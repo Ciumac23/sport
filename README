@@ -1,0 +1,13 @@
+TEMA 3 POO CIOBANU DORIN 321 CB
+
+Cerinta I...
+Pentru implementarea primei cerinte am decis sa fac o clasa Team, care o sa extinda 3 clase (derivate) pentru echipele de fotbal, basket si handball. Pentru instantierea fiecarui tip de 
+sport am decis sa folosesc design patternul Factory. Iar pentru stocarea echipelor create la cerinta I, am decis sa fac un vector de tip Team, pentru a putea stoca usor toate echipele. 
+Pentru aceasta am creat clasa ArrayTeam si am facut o singura instanta cu design patternul Singleton.
+
+Cerinta II...
+Pentru implementarea competitiilor am creat clasa BasketballCompetition care va deriva clasele FootballCompetitions si altele pentru competitii de diferite tipuri. Clasele acestea au ca campuri 
+lista de echipe, lista de echipele castigatoare, tipul de competitie si genul. Pentru calcularea
+scorului final am decis sa folosesc design patternul Strategy, clasele BasketballOperations, FootballOperations, HandballOperations implementeaza interfata Strategy care au metode de 
+calculare a scorului final. Dupa calcularea scorului prin Observer am trecut prin toate echipele si
+le-am setat scorul si am facut clasamentul, metoda update.
