@@ -1,4 +1,4 @@
-TEMA 3 POO CIOBANU DORIN 321 CB
+CIOBANU DORIN. Design Patterns && Java Classes
 
 Cerinta I...
 Pentru implementarea primei cerinte am decis sa fac o clasa Team, care o sa extinda 3 clase (derivate) pentru echipele de fotbal, basket si handball. Pentru instantierea fiecarui tip de 
